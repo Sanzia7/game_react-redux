@@ -1,0 +1,35 @@
+.game {
+	margin-top: 50px;
+}
+
+.container {
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.reset {
+	margin: 40px auto;
+	padding: 5px;
+	display: block;
+	height: 60px;
+	width: 250px;
+	background: rgb(223, 187, 7);
+	border: 1px solid #e38383;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px;
+
+	color: #06a2f6;
+	font-size: 30px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.reset:hover {
+	background-color: #649dff;
+	color: whitesmoke;
+	/* box-shadow: inset 2px 2px 4px rgb(0, 140, 255); */
+	box-shadow: 0 45px 65px rgba(0, 0, 0, 0.50), 0 35px 22px rgba(0, 0, 0, 0.16);
+}
